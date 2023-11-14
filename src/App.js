@@ -1,7 +1,9 @@
+import NavBar from "./navBar";
+
 function App() {
   return (
     <>
-      <h1 className="font-signature">Krishna</h1>
+      <NavBar />
     </>
   );
 }
