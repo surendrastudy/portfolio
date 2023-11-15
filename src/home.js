@@ -2,6 +2,7 @@ import React from "react";
 import heroImage from "./assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import ReactTypingEffect from "react-typing-effect";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -29,12 +30,17 @@ const Home = () => {
           </p>
         </div>
         <div className="btnContainer ">
-          <button className="group flex items-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 p-3 m-2 rounded-md text-xl">
+          <Link
+            to="portfolio"
+            smooth
+            duration={700}
+            className="group cursor-pointer flex items-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 p-3 m-2 rounded-md text-xl"
+          >
             Portfolio
             <span className="group-hover:rotate-90 duration-300 text-xl">
               <MdOutlineKeyboardArrowRight />
             </span>
-          </button>
+          </Link>
         </div>
       </div>
       <div className="right w-full md:w-[40vw] mb-8 md:mb-0">

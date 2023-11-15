@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [showHam, setShowHam] = useState(false);
   const links = [
-    { link: "Home" },
-    { link: "About" },
-    { link: "Portfolio" },
-    { link: "Skills" },
-    { link: "Contact" },
+    { link: "home" },
+    { link: "about" },
+    { link: "portfolio" },
+    { link: "skills" },
+    { link: "contact" },
   ];
   return (
     <div className="navBar flex bg-black p-2 h-14 w-full fixed justify-between items-center text-3xl font-semibold z-40">
@@ -22,9 +23,11 @@ const NavBar = () => {
         {links.map((l, index) => (
           <div
             key={index}
-            className="text-xl cursor-pointer  hover:scale-105 duration-200"
+            className="text-xl cursor-pointer capitalize hover:scale-105 duration-200"
           >
-            {l.link}
+            <Link to={l.link} smooth duration={700}>
+              {l.link}
+            </Link>
           </div>
         ))}
       </div>
@@ -40,9 +43,16 @@ const NavBar = () => {
           {links.map((l, index) => (
             <div
               key={index}
-              className="text-xl cursor-pointer  hover:scale-105 duration-200"
+              className="text-xl cursor-pointer capitalize  hover:scale-105 duration-200"
             >
-              {l.link}
+              <Link
+                to={l.link}
+                smooth
+                duration={700}
+                onClick={() => setShowHam(!showHam)}
+              >
+                {l.link}
+              </Link>
             </div>
           ))}
         </div>
