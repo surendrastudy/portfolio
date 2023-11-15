@@ -19,7 +19,7 @@ const SocialLinks = () => {
       <div className="cursor-pointer flex justify-between -ml-[100px] px-4 bg-gray-500 w-36 h-14 items-center text-white text-xl hover:rounded-md hover:-ml-[10px] duration-300">
         LinkedIn
         <a
-          href="https://linkedin.com/krishnamahto021"
+          href="https://www.linkedin.com/in/krishnamahto021/"
           target="_blank"
           rel="noreferrer"
         >
@@ -29,7 +29,7 @@ const SocialLinks = () => {
       <div className="cursor-pointer flex justify-between -ml-[100px] px-4 bg-gray-500 w-36 h-14 items-center text-white text-xl hover:rounded-md hover:-ml-[10px] duration-300">
         Mail
         <a
-          href="https://github.com/krishnamahto021"
+          href="mailto:mahtok98212@gmail.com"
           target="_blank"
           rel="noreferrer"
         >

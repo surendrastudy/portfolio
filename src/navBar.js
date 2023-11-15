@@ -15,9 +15,14 @@ const NavBar = () => {
   return (
     <div className="navBar flex bg-black p-2 h-14 w-full fixed justify-between items-center text-3xl font-semibold z-40">
       <div>
-        <span className="name font-signature  text-white cursor-pointer p-2 ">
+        <Link
+          to="home"
+          smooth
+          duration={700}
+          className="name font-signature  text-white cursor-pointer p-2 "
+        >
           Krishna
-        </span>
+        </Link>
       </div>
       <div className="linksContainer text-white hidden md:flex gap-6 ">
         {links.map((l, index) => (
