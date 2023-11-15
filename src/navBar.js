@@ -8,6 +8,7 @@ const NavBar = () => {
     { link: "Home" },
     { link: "About" },
     { link: "Portfolio" },
+    { link: "Skills" },
     { link: "Contact" },
   ];
   return (
