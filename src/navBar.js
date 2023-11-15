@@ -11,7 +11,7 @@ const NavBar = () => {
     { link: "Contact" },
   ];
   return (
-    <div className="navBar flex bg-black p-2 h-14 w-full fixed justify-between items-center text-3xl font-semibold">
+    <div className="navBar flex bg-black p-2 h-14 w-full fixed justify-between items-center text-3xl font-semibold z-40">
       <div>
         <span className="name font-signature  text-white cursor-pointer p-2 ">
           Krishna

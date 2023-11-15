@@ -2,14 +2,14 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-b from-black to-gray-800 text-white w-full min-h-screen p-4 md:p-8">
+    <div className="bg-gradient-to-b from-black to-gray-800 text-white w-full min-h-screen p-4 relative  md:p-8">
       <div className="max-w-screen-lg mx-auto">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-3xl md:text-2xl lg:text-xl mt-6 md:mt-12">
+        <p className="text-xl md:text-2xl lg:text-xl mt-6 md:mt-12">
           Hello there! 👋 I'm Krishna Mahato, a passionate MERN stack developer
           with a drive to create meaningful and efficient web solutions.
           <br />
@@ -23,12 +23,12 @@ const About = () => {
           <br />
           Although I'm a newcomer in the professional landscape with 0 years of
           formal experience, my commitment to continuous learning has led me to
-          build and complete around 15 diverse projects. These projects aren't
-          just code; they represent my commitment to crafting user-centric
-          applications that are not only functional but also intuitive and
-          visually appealing. From e-commerce platforms to chatApp applications,
-          each project reflects my dedication to mastering the intricacies of
-          web development.
+          build and complete around various diverse projects. These projects
+          aren't just code; they represent my commitment to crafting
+          user-centric applications that are not only functional but also
+          intuitive and visually appealing. From e-commerce platforms to chatApp
+          applications, each project reflects my dedication to mastering the
+          intricacies of web development.
           <br />
           <br />
           One of my strengths lies in being a quick learner. I thrive in dynamic
@@ -40,8 +40,7 @@ const About = () => {
           apart is my passion for staying at the forefront of technology. I
           don't just aim to keep up; I aim to lead.
           <br />
-          <br />
-          I believe that being a true tech enthusiast involves not only
+          <br />I believe that being a true tech enthusiast involves not only
           mastering current tools but also eagerly embracing the ones on the
           horizon. My commitment to being a lifelong learner is what propels me
           forward in the ever-evolving world of web development. In essence, I'm

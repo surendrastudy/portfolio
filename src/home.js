@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="homeContainer h-screen w-full bg-gradient-to-b from-black to-gray-800 flex flex-col  md:flex-row items-center justify-between"
+      className="homeContainer h-screen min-h-screen w-full bg-gradient-to-b from-black to-gray-800 flex flex-col md:flex-row items-center justify-between p-4"
     >
-      <div className="left w-full md:w-[60vw] mt-16 flex flex-col items-center justify-center h-full md:mt-0 ">
-        <div className="aboutMyself text-3xl font-bold text-gray-300 flex flex-col content-center ml-14 ">
+      <div className="left w-full md:w-[60vw] mt-16 md:mt-0 md:flex md:flex-col items-center justify-center h-full">
+        <div className="aboutMyself text-3xl font-bold text-gray-300 flex flex-col content-center md:ml-14">
           <ReactTypingEffect
             staticText="I am "
             text={[
@@ -20,8 +20,12 @@ const Home = () => {
             ]}
           />
           <p className="text-lg">
-            I am Full stack Developer improving the Tech knowledge by working on
-            the various Project
+            As a budding MERN stack developer, I bring a fresh perspective and
+            various diverse projects showcasing my commitment to crafting
+            user-centric, efficient web solutions. A quick learner with zero
+            formal experience, I'm passionate about staying at the forefront of
+            technology, ready to tackle challenges and contribute to innovative
+            projects.
           </p>
         </div>
         <div className="btnContainer ">
@@ -33,7 +37,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="right w-4/5 mb-40 md:w-[40vw] md:mb-0 ">
+      <div className="right w-full md:w-[40vw] mb-8 md:mb-0">
         <img
           src={heroImage}
           alt="Krishna"
