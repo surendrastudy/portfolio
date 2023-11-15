@@ -8,19 +8,31 @@ const SocialLinks = () => {
     <div className="socialContainer flex-col items-center fixed top-[30%] left-0 hidden lg:block">
       <div className="cursor-pointer flex justify-between -ml-[100px] px-4 bg-gray-500 w-36 h-14 items-center text-white text-xl hover:rounded-md hover:-ml-[10px] duration-300">
         GitHub
-        <a href="https://github.com/krishnamahto021" target="_blank">
+        <a
+          href="https://github.com/krishnamahto021"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
       </div>
       <div className="cursor-pointer flex justify-between -ml-[100px] px-4 bg-gray-500 w-36 h-14 items-center text-white text-xl hover:rounded-md hover:-ml-[10px] duration-300">
         LinkedIn
-        <a href="https://linkedin.com/krishnamahto021" target="_blank">
+        <a
+          href="https://linkedin.com/krishnamahto021"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
       </div>
       <div className="cursor-pointer flex justify-between -ml-[100px] px-4 bg-gray-500 w-36 h-14 items-center text-white text-xl hover:rounded-md hover:-ml-[10px] duration-300">
         Mail
-        <a href="https://github.com/krishnamahto021" target="_blank">
+        <a
+          href="https://github.com/krishnamahto021"
+          target="_blank"
+          rel="noreferrer"
+        >
           <HiOutlineMail />
         </a>
       </div>
@@ -29,6 +41,7 @@ const SocialLinks = () => {
         <a
           href="https://github.com/krishnamahto021"
           target="_blank"
+          rel="noreferrer"
           download={true}
         >
           <BsFillPersonLinesFill />

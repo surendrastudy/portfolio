@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="homeContainer h-screen w-full bg-gradient-to-b from-black to-gray-800 flex flex-col md:flex-row items-center justify-between"
+      className="homeContainer h-screen w-full bg-gradient-to-b from-black to-gray-800 flex flex-col  md:flex-row items-center justify-between"
     >
-      <div className="left w-full md:w-[60vw]  flex flex-col items-center justify-center h-full ">
-        <div className="aboutMyself text-3xl font-bold text-gray-300">
+      <div className="left w-full md:w-[60vw] mt-16 flex flex-col items-center justify-center h-full md:mt-0 ">
+        <div className="aboutMyself text-3xl font-bold text-gray-300 flex flex-col content-center ml-14 ">
           <ReactTypingEffect
             staticText="I am "
             text={[
@@ -19,6 +19,10 @@ const Home = () => {
               "Zero Experience Enthusiast",
             ]}
           />
+          <p className="text-lg">
+            I am Full stack Developer improving the Tech knowledge by working on
+            the various Project
+          </p>
         </div>
         <div className="btnContainer ">
           <button className="group flex items-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 p-3 m-2 rounded-md text-xl">
