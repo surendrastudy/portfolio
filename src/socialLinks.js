@@ -39,7 +39,7 @@ const SocialLinks = () => {
       <div className="cursor-pointer flex justify-between -ml-[100px] px-4 bg-gray-500 w-36 h-14 items-center text-white text-xl hover:rounded-md hover:-ml-[10px] duration-300">
         Resume
         <a
-          href="https://github.com/krishnamahto021"
+          href="/krishnaResume.pdf"
           target="_blank"
           rel="noreferrer"
           download={true}
