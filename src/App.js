@@ -1,4 +1,5 @@
 import About from "./about";
+import Contact from "./contact";
 import Home from "./home";
 import NavBar from "./navBar";
 import Portfolio from "./portfolio";
@@ -12,7 +13,8 @@ function App() {
       <Home />
       <About />
       <Portfolio />
-      <Skills/>
+      <Skills />
+      <Contact />
       <SocialLinks />
     </>
   );
