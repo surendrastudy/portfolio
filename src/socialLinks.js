@@ -28,11 +28,7 @@ const SocialLinks = () => {
       </div>
       <div className="cursor-pointer flex justify-between -ml-[100px] px-4 bg-gray-500 w-36 h-14 items-center text-white text-xl hover:rounded-md hover:-ml-[10px] duration-300">
         Mail
-        <a
-          href="mailto:mahtok98212@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="mailto:mahtok98212@gmail.com" target="_blank" rel="noreferrer">
           <HiOutlineMail />
         </a>
       </div>
