@@ -10,15 +10,31 @@ import ogStore from "./assets/portfolio/ogStore.png";
 import ipod from "./assets/portfolio/ipod.png";
 import photoFolio from "./assets/portfolio/photoFolio.png";
 import fbClone from "./assets/portfolio/fbClone.png";
+import ogStoreDemo from "./assets/portfolio/ogStoreDemo.png";
+import netflix from "./assets/portfolio/netflix.png";
 
 const Portfolio = () => {
   const portfolioItems = [
+    {
+      src: ogStoreDemo,
+      name: "ogStore",
+      about: "Fully fledged ecommerce app with razorpay checkout",
+      codeLink: "https://github.com/krishnamahto021/ogStore",
+      demoLink: "https://ogstore.onrender.com/",
+    },
     {
       src: chatApp,
       name: "chatApp",
       about: "This is chat App made upon socket.io with MERN stack",
       codeLink: "https://github.com/krishnamahto021/chatApp",
       demoLink: "https://chatapp-inyr.onrender.com/",
+    },
+    {
+      src: netflix,
+      name: "Netflix",
+      about: "This is netflix clone made using TMDB api ",
+      codeLink: "https://github.com/krishnamahto021/netflixClone",
+      demoLink: "https://moviesite-cspe.onrender.com/",
     },
     {
       src: calculator,
@@ -66,7 +82,7 @@ const Portfolio = () => {
     },
     {
       src: ogStore,
-      name: "ogStore",
+      name: "Ecommerce Admin pannel",
       about:
         "This is admin dashboard of the ogstore from where the admin can add the product ",
       codeLink: "https://github.com/krishnamahto021/ecommerce-frontend",
@@ -107,7 +123,7 @@ const Portfolio = () => {
           </p>
           <p className="py-6">Check out Some my Work right here</p>
         </div>
-        <div className="projectsContainer grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-0">
+        <div className="projectsContainer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 sm:px-0">
           {portfolioItems.map((p, index) => (
             <div
               className="project shadow-md shadow-gray-600 rounded-lg mb-8"
@@ -139,7 +155,7 @@ const Portfolio = () => {
                   href={p.codeLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-1/2 px-2 py-1 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-2 py-1 m-4 duration-200 hover:scale-105 rounded-md"
                 >
                   Code
                 </a>

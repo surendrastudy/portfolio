@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="homeContainer h-screen min-h-screen w-full bg-gradient-to-b from-black to-gray-800 flex flex-col md:flex-row items-center justify-between p-4"
+      className="homeContainer max-h-fit  w-full bg-gradient-to-b from-black to-gray-800 flex flex-col md:flex-row items-center justify-around p-4"
     >
       <div className="left w-full md:w-[60vw] mt-16 md:mt-0 md:flex md:flex-col items-center justify-center h-full">
         <div className="aboutMyself text-3xl font-bold text-gray-300 flex flex-col content-center md:ml-14">
@@ -34,7 +34,7 @@ const Home = () => {
             to="portfolio"
             smooth
             duration={700}
-            className="group cursor-pointer flex items-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 p-3 m-2 rounded-md text-xl"
+            className="group cursor-pointer flex items-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 p-3 w-fit m-2 rounded-md text-xl"
           >
             Portfolio
             <span className="group-hover:rotate-90 duration-300 text-xl">
@@ -43,11 +43,11 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="right w-full md:w-[40vw] mb-8 md:mb-0">
+      <div className="right flex ">
         <img
           src={heroImage}
           alt="Krishna"
-          className="rounded-3xl w-full md:w-auto"
+          className="rounded-3xl aspect-square"
         />
       </div>
     </div>
