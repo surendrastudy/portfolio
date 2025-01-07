@@ -10,46 +10,28 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl md:text-2xl lg:text-xl mt-6 md:mt-12">
-          Hello there! 👋 I'm Krishna Mahato, a passionate MERN stack developer
-          with a drive to create meaningful and efficient web solutions.
-          <br />
-          <br />
-          Despite my relatively fresh journey in the tech world, I bring a
-          unique blend of enthusiasm, adaptability, and a knack for
-          problem-solving. My coding journey began with a curiosity that quickly
-          evolved into a dedicated exploration of the MERN (MongoDB, Express.js,
-          React, Node.js) stack.
-          <br />
-          <br />
-          Although I'm a newcomer in the professional landscape with 0 years of
-          formal experience, my commitment to continuous learning has led me to
-          build and complete around various diverse projects. These projects
-          aren't just code; they represent my commitment to crafting
-          user-centric applications that are not only functional but also
-          intuitive and visually appealing. From e-commerce platforms to chatApp
-          applications, each project reflects my dedication to mastering the
-          intricacies of web development.
-          <br />
-          <br />
-          One of my strengths lies in being a quick learner. I thrive in dynamic
-          environments where the pace of technological evolution is matched only
-          by my eagerness to absorb new information. This mindset, coupled with
-          my MERN stack expertise, positions me as an adaptable developer ready
-          to tackle the challenges of tomorrow's tech landscape. While my
-          technical skills are evident in my project portfolio, what sets me
-          apart is my passion for staying at the forefront of technology. I
-          don't just aim to keep up; I aim to lead.
-          <br />
-          <br />I believe that being a true tech enthusiast involves not only
-          mastering current tools but also eagerly embracing the ones on the
-          horizon. My commitment to being a lifelong learner is what propels me
-          forward in the ever-evolving world of web development. In essence, I'm
-          not just a MERN stack developer; I'm a creative problem-solver, an
-          avid learner, and a tech enthusiast eager to contribute my skills to
-          innovative projects. I'm excited about the opportunity to bring fresh
-          perspectives and enthusiasm to your team. Let's build the future
-          together!
-        </p>
+         
+        Hello there! 👋 I'm Surendraprasad Yadav, a dedicated and enthusiastic MERN stack developer with a passion for building meaningful and efficient web solutions.
+        <br /><br />
+
+        Though I'm at the beginning of my tech journey, I bring a unique blend of curiosity, adaptability, and problem-solving skills. What started as a spark of interest quickly evolved into a focused pursuit of mastering the MERN (MongoDB, Express.js, React, Node.js) stack.
+        <br /><br />
+
+        Despite having no formal work experience, I have completed diverse projects ranging Room Reservation platforms to connectLive. Each project reflects my commitment to creating user-friendly, functional, and visually appealing applications.
+        <br /><br />
+
+        My work is not just about writing code it's about crafting web solutions that put users first.
+        <br /><br />
+
+        One of my biggest strengths is being a fast learner. I thrive in dynamic environments, and my eagerness to absorb new technologies allows me to stay ahead in the ever-evolving tech landscape. I don’t just keep up with new tools and trends—I aim to lead with creativity and innovation.
+        <br />
+
+        In essence, I'm a passionate MERN stack developer, a creative problem-solver, and a lifelong learner.
+        <br /><br />
+
+        I'm excited to bring my energy, skills, and fresh perspectives to build the future alongside your team!
+      </p>
+
       </div>
     </div>
   );

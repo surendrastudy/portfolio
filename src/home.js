@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "./assets/heroImage.jpg";
+import heroImage from "./assets/resumeImg.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import ReactTypingEffect from "react-typing-effect";
 import { Link } from "react-scroll";
@@ -17,7 +17,6 @@ const Home = () => {
             text={[
               "MERN Stack Developer",
               "Project Builder",
-              "Zero Experience Enthusiast",
             ]}
           />
           <p className="text-2xl leading-10  mt-6  ">

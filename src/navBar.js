@@ -21,7 +21,7 @@ const NavBar = () => {
           duration={700}
           className="name font-signature  text-white cursor-pointer p-2 "
         >
-          Krishna
+          Surendra
         </Link>
       </div>
       <div className="linksContainer text-white hidden md:flex gap-6 ">
