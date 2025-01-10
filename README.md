@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository! Here, you can explore the projects I have worked on, my skills, and much more. This portfolio is designed to showcase my work as a web developer.
 
-🔗 **Live Demo**: [Surendra's Portfolio](https://surendraresume.netlify.app/)
+🔗 **Live Demo**: [Surendra's Portfolio](https://surendraportfoli.netlify.app/)
 
 ## Table of Contents
 
