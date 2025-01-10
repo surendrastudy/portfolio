@@ -36,7 +36,7 @@ const Skills = () => {
           </p>
           <p className="py-8">The technologies I am familiar with</p>
         </div>
-        <div className="skillsContainer w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="skillsContainer w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {skillsArray.map((skill, index) => (
             <div
               key={index}
